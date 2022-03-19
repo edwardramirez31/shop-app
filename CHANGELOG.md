@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/edwardramirez31/shop-app/compare/v1.0.0...v1.1.0) (2022-03-19)
+
+
+### Features
+
+* adding main layout and formik ([572a31f](https://github.com/edwardramirez31/shop-app/commit/572a31f605767c9f46fce8e8c8ad901edf537fcb))
+
 # 1.0.0 (2022-03-19)
 
 
