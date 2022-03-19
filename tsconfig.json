@@ -31,7 +31,11 @@
       "@components/*": ["components/*"],
       "@pages/*": ["pages/*"],
       "@hooks/*": ["hooks/*"],
-      "@styles/*": ["styles/*"]
+      "@styles/*": ["styles/*"],
+      "@store/*": ["store/*"],
+      "@assets/*": ["assets/*"],
+      "@mock_data/*": ["mock_data/*"],
+      "@apis/*": ["apis/*"],
     }
   },
   "include": [
