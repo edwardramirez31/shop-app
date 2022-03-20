@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/edwardramirez31/shop-app/compare/v1.1.0...v1.2.0) (2022-03-20)
+
+
+### Features
+
+* adding auth slice with testing and babel config ([0a4b680](https://github.com/edwardramirez31/shop-app/commit/0a4b68069f7556d501251ab462d4144676eaa521))
+
 # [1.1.0](https://github.com/edwardramirez31/shop-app/compare/v1.0.0...v1.1.0) (2022-03-19)
 
 
