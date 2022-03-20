@@ -1,10 +1,10 @@
 import { all, fork } from 'redux-saga/effects';
 
-import tasksSaga from './tasks';
+import authSaga from './auth';
 
 export default function* rootSaga(): Generator {
   try {
-    yield all([fork(tasksSaga)]);
+    yield all([fork(authSaga)]);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.log(error);

@@ -3,3 +3,7 @@ export interface ErrorObject {
   status?: number;
   code?: string;
 }
+export interface User {
+  email: string;
+  name: string;
+}

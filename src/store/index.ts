@@ -1,13 +1,13 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import createSagaMiddleware from 'redux-saga';
 
-import rootSaga from './sagas';
-import taskReducer from './slices/tasks';
+import rootSaga from '@store/sagas/index';
+import authReducer from '@store/slices/auth';
 
 const sagaMiddleware = createSagaMiddleware();
 
 export const rootReducer = combineReducers({
-  task: taskReducer,
+  auth: authReducer,
 });
 
 const store = configureStore({
